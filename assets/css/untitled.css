@@ -1,0 +1,96 @@
+#sidebar-wrapper {
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  width: 250px;
+  height: 100%;
+  transition: all .4s ease 0s;
+  -webkit-transform: translateX(250px);
+  transform: translateX(250px);
+  background: #ffffff;
+  border-left: 1px solid hsla(0,0%,100%,.1);
+}
+
+#sidebar-nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  color: #fff!important;
+  padding: 0;
+}
+
+#sidebar-nav a {
+  color: rgb(52,58,64);
+}
+
+#sidebar-nav a:hover {
+  color: rgb(255,255,255);
+  background-color: #1d809f;
+}
+
+#sidebar-nav li, #sidebar-wrapper {
+}
+
+.sidebar-nav > .sidebar-brand {
+  font-size: 1.2rem;
+  background: rgba(255,255,255,0.1);
+  height: 80px;
+  line-height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+#mymodaljadwal.modal-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem;
+  border-top-left-radius: .3rem;
+  border-top-right-radius: .3rem;
+}
+
+#diagonal-text img {
+  -webkit-box-shadow: -2px 16px 30px -16px rgba(0,0,0,0.75);
+  -moz-box-shadow: -2px 16px 30px -16px rgba(0,0,0,0.75);
+  box-shadow: -2px 16px 30px -16px rgba(0,0,0,0.75);
+}
+
+@media (max-width: 599px) {
+  #portofolio-misi {
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 802px) {
+  #portofolio-misi {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 0px;
+    max-height: 400px;
+  }
+}
+
+@media (min-width: 600px) {
+  #portofolio-misi {
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 0px;
+    /*max-height: 300px;*/
+  }
+}
+
+@media (max-width: 600px) {
+  #banner-special-tips {
+    display: none;
+  }
+}
+

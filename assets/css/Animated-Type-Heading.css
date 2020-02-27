@@ -1,0 +1,153 @@
+.cd-words-wrapper {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  text-shadow: 1.5px 1px black;
+  font-size: 70px;
+}
+
+.cd-words-wrapper b {
+  display: inline-block;
+  position: absolute;
+  white-space: nowrap;
+  left: 0;
+  top: 0;
+}
+
+.blc {
+  font-size: 70px;
+}
+
+.cd-words-wrapper b.is-visible {
+  position: relative;
+}
+
+.cd-headline.clip span {
+  display: inline-block;
+  padding: 0px;
+}
+
+.cd-headline.clip .cd-words-wrapper {
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.cd-headline.clip b {
+  opacity: 0;
+}
+
+.cd-headline b.is-visible {
+  opacity: 1;
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  #services h2 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  #header-sec h2 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 600px) {
+  #header-sec h3 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 600px) {
+  #header-sec h1 {
+    font-size: 45px;
+  }
+}
+
+@media (min-width: 600px) {
+  #gambar-section {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../../assets/img/bg-callout.jpg");
+    background-position: top top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("../../assets/img/IMG_0188.JPG");
+    background-color: rgba(25,123,159,0.32);
+    background-blend-mode: darken;
+  }
+}
+
+@media (max-width: 600px) {
+  #gambar-section {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../../assets/img/bg-callout.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url("../../assets/img/pakgem.png");
+    background-color: rgba(25,123,159,0.32);
+    background-blend-mode: darken;
+    height: 20px;
+  }
+}
+
+#portfolio {
+}
+
+@media (max-width: 600px) {
+  #greeting p {
+    text-align: center;
+  }
+}
+
+#greeting {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+@media (max-width: 361px) {
+  #gambar-persembahan {
+    height: 215px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 993px) {
+  #gambar-persembahan {
+    height: 370px;
+    width: 100%;
+    max-height: 100%;
+  }
+}
+
+@media (max-width: 992px) {
+  #gambar-persembahan {
+    height: 310px;
+    width: 100%;
+    max-height: 100%;
+  }
+}
+
+#my-form input {
+  border-radius: 50px;
+}
+
+@media (max-width: 600px) {
+  #tomboldoa {
+    background-color: #26292e;
+    color: rgb(255,255,255);
+    width: auto;
+  }
+}
+
+@media (min-width: 600px) {
+  #tomboldoa {
+    background-color: #26292e;
+    color: rgb(255,255,255);
+    width: 15%;
+  }
+}
+

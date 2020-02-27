@@ -1,0 +1,30 @@
+#sidebar-wrapper {
+  background-color: #fff;
+}
+
+#sidebar-nav a {
+  color: black;
+}
+
+#sidebar-nav a:hover {
+  color: #fff;
+  background-color: #1d809f;
+}
+
+#brand :hover {
+  background-color: white;
+}
+
+#sidebar-nav li, #sidebar-wrapper :hover {
+  background-color: white;
+}
+
+#brand a:hover {
+  background-color: white;
+}
+
+.btn:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
